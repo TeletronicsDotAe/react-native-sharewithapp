@@ -1,0 +1,25 @@
+{
+  "name": "react-native-sharewithapp",
+  "version": "0.1",
+  "description": "Allows apps to share images with React Native apps",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeletronicsDotAe/react-native-sharewithapp.git"
+  },
+  "keywords": [
+    "android",
+    "sim"
+  ],
+  "author": "Teletronics.ae",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeletronicsDotAe/react-native-sharewithapp/issues"
+  },
+  "homepage": "https://github.com/TeletronicsDotAe/react-native-sharewithapp#readme"
+}
