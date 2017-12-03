@@ -1,4 +1,4 @@
-package ae.teletronics.siminfo;
+package ae.teletronics.sharewithapp;
 
 import java.util.Arrays;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 import com.facebook.react.bridge.JavaScriptModule;
 
-public class RNSimInfo implements ReactPackage {
+public class RNShareWithApp implements ReactPackage {
 
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
