@@ -36,7 +36,7 @@ public class RNShareWithAppModule extends ReactContextBaseJavaModule {
     
         if (imageUri != null) {
             System.out.println("ShareWithApp - " + imageUri);
+            successCallback.invoke(imageUri.toString());
         }
-        //successCallback.invoke(imageUri);
   }
 }
