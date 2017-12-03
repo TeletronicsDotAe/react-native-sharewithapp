@@ -16,4 +16,15 @@ public class RNShareWithAppModule extends ReactContextBaseJavaModule {
     public String getName() {
         return "RNShareWithApp";
     }
+
+    @ReactMethod
+    public void getSharedImage(Callback successCallback) {
+        Activity mActivity = getCurrentActivity();
+        Intent intent = mActivity.getIntent();
+        Uri imageUri = (Uri) intent.getParcelableExtra(Intent.EXTRA_STREAM);
+        if (imageUri != null) {
+
+        }
+        successCallback.invoke(imageUri);
+  }
 }
